@@ -1,0 +1,25 @@
+.logo {
+  line-height: 90px;
+  padding-left: 24px;
+  background-color: #002140 ;
+}
+.logo img {
+  max-height: 35px;
+  display: inline;
+}
+.logo h2 {
+  margin: 0 0 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 20px;
+}
+@media screen and (max-width: 1300px) {
+  .logo {
+    line-height: 50px;
+    padding-left: 24px;
+  }
+  .logo img {
+    display: none;
+  }
+}

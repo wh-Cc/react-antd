@@ -1,0 +1,42 @@
+.header {
+  background-color: #ffffff;
+}
+.header .header-top {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-align: right;
+}
+.header .header-top a {
+  margin-left: 20px;
+}
+.header .breadcrumb {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  border-top: 1px solid #ebedf0;
+}
+.header .breadcrumb .breadcrumb-title {
+  width: 150px;
+  height: 100%;
+  text-align: center;
+}
+.header .breadcrumb .breadcrumb-title:after {
+  position: absolute;
+  content: '';
+  top: 49px;
+  left: 63px;
+  border-top: 9px solid #fff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+}
+.header .breadcrumb .weather {
+  text-align: right;
+}
+.weather-symbol {
+  margin: 0 10px 0 10px;
+}
+.weather-symbol img {
+  width: 22px;
+  margin-top: -3px;
+}
